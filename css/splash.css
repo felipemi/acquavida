@@ -1,0 +1,34 @@
+#mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #666;
+    z-index: 10000;
+}
+#boxes .window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+}
+#boxes #dialog2 {
+    background: transparent; 
+    width: 1004px;
+    margin: 0 auto;
+    margin-top: -340px;
+    margin-left: -390px;
+    z-index: 50000;
+}
+.close{
+    display:block; 
+    text-align:right;
+}
+.sorv {
+    height: 2660px;
+}
